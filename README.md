@@ -70,12 +70,19 @@ monique / ZeroMQ, Haskell
 
 🗓 05.2016 – 12.2016 / *8 months*
 
-🔧 Scala, Julia
+🔧 Scala, Julia, MySQL
 
-first semantic / scala
-authorization / scala
-ylab / scala
-basecaller / julia
+**Semantic system.** I wrote backend on Scala for a service for storing and connecting various biological items.
+This version did not become production solution, but was a prototype for the next versions.
+
+**Authorization.** In Scala I wrote a backend for an authorization system that stores information about users, salted and hashed passwords, groups and so on.
+This authorization system was used by all services in the department and was changed to authorization [Keycloak](https://www.keycloak.org/) and [Azure](azure.microsoft.com) only in 2019.
+
+**Asynchronous task execution.** For one of our services with a lot of computations I made module that allows balance workload on server with a lot of CPUs.
+This solution was based on [Sun Grid Engine](http://star.mit.edu/cluster/docs/0.93.3/guides/sge.html).
+
+**Basecaller algorithm.** Using Julia language, I solved the [basecalling](https://en.wikipedia.org/wiki/Base_calling) problem.
+My solution was of the same quality as other algorithms, and sligtly worse than state-of-the art algorithm.
 
 
 ### Junior software developer
