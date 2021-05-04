@@ -6,13 +6,16 @@ Before my experience, I would like to say a few words about my interests.
 
 ## Interests
 
-Briefly, I have two groups of interests: 1) reduce the impact of humanity on the environment and 2) improve the quality of life of people.
+Briefly, I have two groups of interests:
+  1. reduce the impact of humanity on the environment;
+  2. improve the quality of life of people.
+
 In both cases, I have areas that are more interesting to me then others.
 
 Reduce the impact of humanity on the environment:
 * renewable energy,
 * garbage recycling,
-* eco-friendly packaging,
+* eco packaging,
 * consumption optimization.
 
 Improve the quality of life of people:
@@ -49,6 +52,7 @@ avtogene
 
 project-keeper / haskell
 minibabr / cuda
+scaffolding / haskell
 
 
 ### Senior software developer
@@ -57,11 +61,11 @@ minibabr / cuda
 
 🗓 01.2017 – 12.2017 / *1 year*
 
-🔧 Haskell, ZeroMQ
+🔧 Haskell, ZeroMQ, Neo4j
 
-ig-annotator / haskell
-folding / haskell
-monique / ZeroMQ, Haskell
+**Protein folding.** If you are developing drugs, the candidate 3D model is very useful to make development more rational and efficient. But very often 3D model is not known. As such, you have to predict 3D model for your candidates using open databases (like [PDB](https://www.rcsb.org/)) and a variety of ideas and tricks. Learn more about [protein folding problem](https://en.wikipedia.org/wiki/Protein_folding), [CASP competition](https://predictioncenter.org), CASP14 winner [AlphaFold](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery). With my team, we have created an algorithm for predicting the 3D structure of antibodies that are used in BIOCAD as one of types of drugs. Quality of our algorithm is comparable to [Rosetta Software](https://www.rosettacommons.org/software) and [Schrödinger Software](https://www.schrodinger.com/products/prime).
+
+**Message bus.** Algorithms such as protein folding and many other related to structure use a lot of computational resources. Thus, you need to distribute tasks across computing services. To solve this problem, I created a message bus based on ZeroMQ with bindings for Haskell and Python (these languages are used for our structural algorithms).
 
 
 ### Software developer
@@ -70,7 +74,7 @@ monique / ZeroMQ, Haskell
 
 🗓 05.2016 – 12.2016 / *8 months*
 
-🔧 Scala, Julia, MySQL
+🔧 Scala, Julia, MySQL, Docker
 
 **Semantic system.** I wrote backend on Scala for a service for storing and connecting various biological items.
 This version did not become production solution, but was a prototype for the next versions.
