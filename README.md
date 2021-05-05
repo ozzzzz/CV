@@ -48,7 +48,13 @@ avtogene
 
 🗓 01.2018 – 01.2019 / *1 year 1 month*
 
-🔧 Haskell
+🔧 Haskell, Neo4j, Mongo
+
+**Scaffold algorithm.** Sometimes we have a 3D structure for a drug candidate. In this case, we do not need to solve the protein folding problem (see below). But we have to deal with another problem -- finding valid details in other 3D structures in order to use them as inspiration for rational [*in silico*](https://en.wikipedia.org/wiki/In_silico) modelling. We solved this problem by using entire [PDB](https://www.rcsb.org/) database. Also, a poster with this algorithm was presented at [PEGS 2019](https://www.pegsummit.com/19#).
+
+**Algorithm for minimization.** One of main parts of finding the correct 3D structure is the minimization problem -- you have to predict minimum energy conformation in some [force fields](https://en.wikipedia.org/wiki/Force_field_(chemistry)). One of commonly used force fields is [OPLS](https://en.wikipedia.org/wiki/OPLS). In cooperation with the Matrosov Institute for System Dynamics and Control Theory, we have developed several optimization methods that allow us to find the local extremum faster than standard methods. The article "Algorithms for local minimization of 3D molecules OPLS force field" was also published (see below in the articles).
+
+**Project management service.** BIOCAD has a full cycle of drug development -- from R&D to Production. This means there are a many different projects going through this process. Together with the team, we developed a service with Mongo database, Haskell backend and React frontend to manage them. An interesting part of this project was striking a balance between the easy of editing project fields and their consistency.
 
 project-keeper / haskell
 minibabr / cuda
