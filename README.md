@@ -25,21 +25,21 @@ Improve the quality of life of people:
 
 ## Experience
 
+read in descent order
+
 ### Head of bioinformatic software development group
 
 👉 [BIOCAD](https://biocad.ru/) / *Saint-Petersburg, Russia*
 
 🗓 02.2019 – current time / *more than 2 years*
 
-🔧 Haskell, Python, React, RabbitMQ, Gitlab
+🔧 Haskell, Python, React, RabbitMQ, Gitlab, Kubernetes
 
-2020
-ylab2
-mq4
+**Biological data storage services.** During the discovery of drugs, a lot of biological data is generated: sequences of antibodies, plasmids and viruses, the results of clustering and annotations, data from real experiments, etc. The task is not only to save all this data in proper way, but also to supplement them with a lot of connections for easy analysis and rational conclusions. Together with the team, we developed two services: one for antibodies and the other for viruses.
 
-2019
-abscan
-avtogene
+**Laboratory algorithms and service.** [*In silico*](https://en.wikipedia.org/wiki/In_silico) modelling is a very powerful tool to make drug discovery more rational and faster. But [in vitro](https://en.wikipedia.org/wiki/In_vitro) (in glass) and [in vivo](https://en.wikipedia.org/wiki/In_vivo) (on animals) is an indispensable part of the whole process. There are many steps from a sequence on your computer to a real protein or virus in a test tube. It turns out that these steps can be done faster of more efficiently using various bioinformatics algorithms. Together with the team, we have developed (and are still developing) a couple of dozen such algorithms. In addition, we developed a service with React and [NextJS](https://nextjs.org/) frontend to make our algorithms lab-friendly. Each algorithm is written in Haskell or Python and runs on several servers using the Kubernetes queue and its API.
+
+**Message bus, version 2.** In 2017, I developed a message bus for distributing a computationally heavy algorithm across servers. At the and of 2019, together with intern, we developed a new version. It was based on RabbitMQ and was used not only in our department, but also for interdepartmental communication. The trickiest part was providing a single entry point that could validate message types and validate messages for their public API.
 
 
 ### Lead software developer
@@ -55,10 +55,6 @@ avtogene
 **Algorithm for minimization.** One of main parts of finding the correct 3D structure is the minimization problem -- you have to predict minimum energy conformation in some [force fields](https://en.wikipedia.org/wiki/Force_field_(chemistry)). One of commonly used force fields is [OPLS](https://en.wikipedia.org/wiki/OPLS). In cooperation with the Matrosov Institute for System Dynamics and Control Theory, we have developed several optimization methods that allow us to find the local extremum faster than standard methods. The article "Algorithms for local minimization of 3D molecules OPLS force field" was also published (see below in the articles).
 
 **Project management service.** BIOCAD has a full cycle of drug development -- from R&D to Production. This means there are a many different projects going through this process. Together with the team, we developed a service with Mongo database, Haskell backend and React frontend to manage them. An interesting part of this project was striking a balance between the easy of editing project fields and their consistency.
-
-project-keeper / haskell
-minibabr / cuda
-scaffolding / haskell
 
 
 ### Senior software developer
