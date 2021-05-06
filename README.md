@@ -1,31 +1,30 @@
 # Curriculum vitae
 
-Hi, my name is Bogdan. I am ...
+Hi, my name is Bogdan.
+
+I am software developer and teamlead with over 4 year of backend experience, mainly in Haskell and Python. I have experience working with frontend (mainly React), distributed systems and ML. But each technology for me is jast a way to solve problems that can make the world a little better. For the last 5 years I have been working in a biotechnology company.
 
 Before my experience, I would like to say a few words about my interests.
 
 ## Interests
 
-Briefly, I have two groups of interests:
-  1. reduce the impact of humanity on the environment;
-  2. improve the quality of life of people.
+Briefly, I have two groups of interests. In both cases, I have areas that are more interesting to me then others:
 
-In both cases, I have areas that are more interesting to me then others.
+*Reduce the impact of humanity on the environment:*
+  * renewable energy,
+  * garbage recycling,
+  * eco packaging,
+  * consumption optimization.
 
-Reduce the impact of humanity on the environment:
-* renewable energy,
-* garbage recycling,
-* eco packaging,
-* consumption optimization.
+*Improve the quality of life of people:*
+  * robotics in different areas,
+  * pharmaceuticals,
+  * efficient transport.
 
-Improve the quality of life of people:
-* robotics in different areas,
-* pharmaceuticals,
-* efficient transport.
 
 ## Experience
 
-read in descent order
+My experience has standart CV order (last experience at the top). Read from bottom to top to see it in chronological order.
 
 ### Head of bioinformatic software development group
 
