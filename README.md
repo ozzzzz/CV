@@ -112,11 +112,9 @@ My experience has standart CV order (last experience at the top). Read from bott
 
 ### Junior web-developer
 
-👉 Mr.Brooks Private Marketing
+👉 Mr.Brooks Private Marketing / *Saint-Petersburg, Russia*
 
 🗓 12.2013 – 12.2014 / *1 year*
-
-🗺 Saint-Petersburg, Russia
 
 🔧 WordPress, JavaScript, CSS, Adobe Illustrator
 
