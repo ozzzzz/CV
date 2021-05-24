@@ -2,7 +2,7 @@
 
 Hi, my name is Bogdan.
 
-I am software developer and teamlead with over 4 years of backend experience, mainly in Haskell and Python. I have experience working with frontend (mainly React), distributed systems and ML. But each technology for me is just a way to solve problems that can make the world a little better. For the last 5 years I have been working in a biotechnology company.
+I am software developer with over 5 years of backend experience, mainly in Haskell and Python, and over 3 years of team management experience. I also have experience with frontend (mostly React), distributed systems and machine learning. But each technology for me is just a way to solve problems that can make the world a little better. For the last 5 years I have been working in a biotechnology company.
 
 Before my experience, I would like to say a few words about my interests.
 
@@ -34,11 +34,11 @@ My experience has standart CV order (last experience at the top). Read from bott
 
 🔧 Haskell, Python, React, RabbitMQ, Gitlab, Kubernetes
 
-**Biological data storage services.** During the discovery of drugs, a lot of biological data is generated: sequences of antibodies, plasmids, and viruses, the results of clustering and annotations, data from real experiments, etc. The task is not only to save all this data in a proper way but also to supplement them with a lot of connections for easy analysis and rational conclusions. Together with the team, we developed two services: one for antibodies and the other for viruses.
+**Biological data storage services.** During the discovery of drugs, a lot of biological data is generated: sequences of antibodies, plasmids, viruses, the results of clustering and annotations their sequences, data from real experiments, etc. The task is not only to save all this data in a proper way but also to supplement them with a lot of connections for easy analysis and rational conclusions. Together with the team, we developed two services: one for antibodies and the other for viruses.
 
 **Laboratory algorithms and service.** [*In silico*](https://en.wikipedia.org/wiki/In_silico) modeling is a very powerful tool to make drug discovery more rational and faster. But [in vitro](https://en.wikipedia.org/wiki/In_vitro) (in glass) and [in vivo](https://en.wikipedia.org/wiki/In_vivo) (on animals) is an indispensable part of the whole process. There are many steps from a sequence on your computer to a real protein or virus in a test tube. It turns out that these steps can be done faster or more efficiently using various bioinformatics algorithms. Together with the team, we have developed (and are still developing) a couple of dozen such algorithms. In addition, we developed a service with React and [NextJS](https://nextjs.org/) frontend to make our algorithms lab-friendly. Each algorithm is written in Haskell or Python and runs on several servers using the Kubernetes queue and its API.
 
-**Message bus, version 2.** In 2017, I developed a message bus for distributing a computationally heavy algorithm across servers. At the end of 2019, together with an intern, we developed a new version. It was based on RabbitMQ and was used not only in our department but also for interdepartmental communication. The trickiest part was providing a single entry point that could validate message types and validate messages for their public API.
+**Message bus, version 2.** In 2017, I developed a message bus for distributing a computationally heavy algorithm across servers. At the end of 2019, together with an intern, we developed a new version. It was based on RabbitMQ and was used not only in our department but also for interdepartmental communication. The trickiest part was providing a single entry point that could validate message types and their content for the public API.
 
 
 ### Lead software developer
@@ -53,7 +53,7 @@ My experience has standart CV order (last experience at the top). Read from bott
 
 **Algorithm for minimization.** One of the main parts of finding the correct 3D structure is the minimization problem -- you have to predict minimum energy conformation in some [force fields](https://en.wikipedia.org/wiki/Force_field_(chemistry)). One of the commonly used force fields is [OPLS](https://en.wikipedia.org/wiki/OPLS). In cooperation with the Matrosov Institute for System Dynamics and Control Theory, we have developed several optimization methods that allow us to find the local extremum faster than standard methods. The article "Algorithms for local minimization of 3D molecules OPLS force field" was also published (see below in the articles).
 
-**Project management service.** BIOCAD has a full cycle of drug development -- from R&D to Production. This means there are many different projects going through this process. Together with the team, we developed a service with Mongo database, Haskell backend, and React frontend to manage them. An interesting part of this project was striking a balance between the ease of editing project fields and their consistency.
+**Project management service.** BIOCAD has a full cycle of drug development -- from R&D to Production. This means there are many different projects going through this process. Together with the team, we developed a service with Mongo database, Haskell backend, and React frontend to manage them. An interesting part of this project was striking a balance between the ease of editing project fields and their consistency after editing.
 
 
 ### Senior software developer
