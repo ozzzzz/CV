@@ -146,6 +146,11 @@ Lieutenant
 * 2009, ICYS, Silver Medal in Mathematics, Pszczyna, Poland
 * 2010, ICYS, Gold Medal in Mathematics, Bali, Indonesia
 * 2010, Intel ISEF, Third place in Mathematics, San Jose, USA
+* 2021, [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning):
+  * [Neural Networks and Deep Learning](https://coursera.org/verify/Q2DFTK2EXP8X)
+  * [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://coursera.org/verify/WQUMDL3FSQUQ)
+  * [Structuring Machine Learning Projects](http://coursera.org/verify/Q3GAYF59P7QJ)
+  * [Convolutional Neural Networks](https://coursera.org/verify/9YXGPAWHTGHF)
 
 ## Presentations 
 
