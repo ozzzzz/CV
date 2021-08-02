@@ -151,6 +151,7 @@ Lieutenant
   * [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://coursera.org/verify/WQUMDL3FSQUQ)
   * [Structuring Machine Learning Projects](http://coursera.org/verify/Q3GAYF59P7QJ)
   * [Convolutional Neural Networks](https://coursera.org/verify/9YXGPAWHTGHF)
+  * [Sequence Models](https://coursera.org/verify/QHEHGZTULZWC)
 
 ## Presentations 
 
