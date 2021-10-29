@@ -2,7 +2,7 @@
 
 Hi, my name is Bogdan.
 
-I am software developer with over 5 years of backend experience, mainly in Haskell and Python, and over 3 years of team management experience. I also have experience with frontend (mostly React), distributed systems and machine learning. But each technology for me is just a way to solve problems that can make the world a little better. For the last 5 years I have been working in a biotechnology company.
+I am software developer with over 5 years of backend experience, mainly in Haskell and Python, and over 3 years of team management experience. I also have experience with frontend (mostly React), distributed systems and machine learning. But each technology for me is just a way to solve problems that can make the world a little better.
 
 Before my experience, I would like to say a few words about my interests.
 
