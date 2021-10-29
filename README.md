@@ -26,11 +26,21 @@ Briefly, I have two groups of interests. In both cases, I have areas that are mo
 
 My experience has standart CV order (last experience at the top). Read from bottom to top to see it in chronological order.
 
+### Senior software developer
+
+👉 [The Anylogic Company](https://www.anylogic.com/) / *Saint-Petersburg, Russia*
+
+🗓 09.2021 – current time / *less than 1 year*
+
+🔧 Java, Python
+
+**Application redesign.** The company's main product has a complex and intricate design, and also not the latest technology stack. My job is to help rebuild, simplify and update the application so that it can continue to develop fully.
+
 ### Head of bioinformatics software development group
 
 👉 [BIOCAD](https://biocad.ru/) / *Saint-Petersburg, Russia*
 
-🗓 02.2019 – current time / *more than 2 years*
+🗓 02.2019 – 08.2021 / *2 years 7 months*
 
 🔧 Haskell, Python, React, RabbitMQ, Gitlab, Kubernetes
 
