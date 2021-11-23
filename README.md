@@ -2,7 +2,7 @@
 
 Hi, my name is Bogdan.
 
-I am software developer with over 5 years of backend experience, mainly in Haskell and Python, and over 3 years of team management experience. I also have experience with frontend (mostly React), distributed systems and machine learning. But each technology for me is just a way to solve problems that can make the world a little better.
+I am a software developer with over 5 years of backend experience, mainly in Haskell and Python, and over 3 years of team management experience. I also have experience with frontend (mostly React), distributed systems and machine learning. But each technology for me is just a way to solve problems that can make the world a little better.
 
 Before my experience, I would like to say a few words about my interests.
 
@@ -24,7 +24,7 @@ Briefly, I have two groups of interests. In both cases, I have areas that are mo
 
 ## Experience
 
-My experience has standart CV order (last experience at the top). Read from bottom to top to see it in chronological order.
+My experience has standard CV order (last experience at the top). Read from bottom to top to see it in chronological order.
 
 ### Senior software developer
 
@@ -128,9 +128,9 @@ My experience has standart CV order (last experience at the top). Read from bott
 
 🔧 WordPress, JavaScript, CSS, Adobe Illustrator
 
-**Web-sites.** I made several websites, based on [WordPress](wordpress.com) CMS and customized them with JavaScript. Customers were AAG Group of companies, Moskovsky Univermag, Mr. Brooks.
+**Web-sites.** I made several websites, based on [WordPress](wordpress.com) CMS and customized them with JavaScript. Customers were the AAG Group of companies, Moskovsky Univermag, Mr. Brooks.
 
-**Font.** In collaboration with designers, we created new font. My task was to convert vector images to font format and made corrections for inter-letter spaces for all combinations of two letters.
+**Font.** In collaboration with designers, we created a new font. My task was to convert vector images to font format and make corrections for inter-letter spaces for all combinations of two letters.
 
 
 ## Education
