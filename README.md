@@ -162,6 +162,8 @@ Lieutenant
   * [Structuring Machine Learning Projects](http://coursera.org/verify/Q3GAYF59P7QJ)
   * [Convolutional Neural Networks](https://coursera.org/verify/9YXGPAWHTGHF)
   * [Sequence Models](https://coursera.org/verify/QHEHGZTULZWC)
+* 2022, [Modern Robotics: Mechanics, Planning, and Control Specialization](https://www.coursera.org/specializations/modernrobotics)
+  * [Foundations of Robot Motion](https://www.coursera.org/account/accomplishments/verify/KC6E93SCLJEN) 
 
 ## Presentations 
 
