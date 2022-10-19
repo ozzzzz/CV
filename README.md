@@ -26,15 +26,25 @@ Briefly, I have two groups of interests. In both cases, I have areas that are mo
 
 My experience has standard CV order (last experience at the top). Read from bottom to top to see it in chronological order.
 
+### Software developer
+
+👉 [Nortal](https://nortal.com/) / *Belgrade, Serbia*
+
+🗓 08.2022 – current time / *less than 1 year*
+
+🔧 Python, Kubernetes
+
 ### Senior software developer
 
 👉 [The Anylogic Company](https://www.anylogic.com/) / *Saint-Petersburg, Russia*
 
-🗓 09.2021 – current time / *less than 1 year*
+🗓 09.2021 – 08.2021 / *11 months*
 
-🔧 Java, Python
+🔧 Java, Python, Docker, Gitlab, NSIS
 
 **Application redesign.** The company's main product has a complex and intricate design, and also not the latest technology stack. My job is to help rebuild, simplify and update the application so that it can continue to develop fully.
+
+**Recreate installer.** The main product is mostly standalone application that should work on Windows, Linux and MacOS. My task was to recreate the process of the creation of installers for all OS, because it was the bottleneck in the development and release pipeline. The result is the fully documented and reproducible environments with IaC, based on the Gitlab pipelines.
 
 ### Head of bioinformatics software development group
 
