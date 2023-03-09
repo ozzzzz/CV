@@ -134,6 +134,8 @@ My experience has standard CV order (last experience at the top). Read from bott
 
 👉 Mr.Brooks Private Marketing / *Saint-Petersburg, Russia*
 
+> Small branding agency.
+
 🗓 12.2013 – 12.2014 / *1 year*
 
 🔧 WordPress, JavaScript, CSS, Adobe Illustrator
