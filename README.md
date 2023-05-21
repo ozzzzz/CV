@@ -5,130 +5,122 @@ Hi, my name is Bogdan.
 I'm a software developer with 8+ years of backend experience, mostly in Haskell and Python, and 3+ years of team management experience. I also have experience with frontend (mostly React), distributed systems and machine learning. However, for me, technology is just a way to solve problems that can make the world a little better.
 
 Areas of my main interests:
-* robotics in various fields,
-* renewable energy,
-* waste recycling,
-* agrotechnics,
-* efficient transport (including electic vehicles).
+
+- robotics in various fields,
+- renewable energy,
+- waste recycling,
+- agrotechnics,
+- efficient transport (including electic vehicles).
 
 ## Experience
 
 ### Software developer
 
-👉 [Nortal](https://nortal.com/) / *Belgrade, Serbia*
+👉 [Nortal](https://nortal.com/) / _Belgrade, Serbia_
 
-🗓 08.2022 – current time / *less than 1 year*
+🗓 08.2022 – current time
 
-🔧 Python, Kubernetes
+🔧 Python, Kubernetes, Kafka
+
+Working on a digitalization for the [NEOM](https://www.neom.com/en-us) city.
 
 ### Senior software developer
 
-👉 [The Anylogic Company](https://www.anylogic.com/) / *Saint-Petersburg, Russia*
+👉 [The Anylogic Company](https://www.anylogic.com/) / _Saint-Petersburg, Russia_
 
-🗓 09.2021 – 08.2021 / *11 months*
+🗓 09.2021 – 08.2021 / _11 months_
 
 🔧 Java, Python, Docker, Gitlab, NSIS
 
-**Application redesign.** The company's main product has a complex and intricate design, and also not the latest technology stack. My job is to help rebuild, simplify and update the application so that it can continue to develop fully.
+Played a key role in redesigning a standalone application for all OS platforms with a 20-year history of development.
 
-**Recreate installer.** The main product is mostly standalone application that should work on Windows, Linux and MacOS. My task was to recreate the process of the creation of installers for all OS, because it was the bottleneck in the development and release pipeline. The result is the fully documented and reproducible environments with IaC, based on the Gitlab pipelines.
+Fixed a bottleneck in the development and release pipeline by setting new a new IaC infrastructure and build pipeline, based on Gitlab solution.
 
 ### Head of bioinformatics software development group
 
-👉 [BIOCAD](https://biocad.ru/) / *Saint-Petersburg, Russia*
+👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 02.2019 – 08.2021 / *2 years 7 months*
+🗓 02.2019 – 08.2021 / _2 years 7 months_
 
 🔧 Haskell, Python, React, RabbitMQ, Gitlab, Kubernetes
 
-**Biological data storage services.** During the discovery of drugs, a lot of biological data is generated: sequences of antibodies, plasmids, viruses, the results of clustering and annotations their sequences, data from real experiments, etc. The task is not only to save all this data in a proper way but also to supplement them with a lot of connections for easy analysis and rational conclusions. Together with the team, we developed two services: one for antibodies and the other for viruses.
+Our team developed two dedicated services for storing and connecting diverse biological data generated during drug discovery, including antibodies, plasmids, viruses, clustering results, sequence annotations, and so on.
 
-**Laboratory algorithms and service.** [*In silico*](https://en.wikipedia.org/wiki/In_silico) modeling is a very powerful tool to make drug discovery more rational and faster. But [in vitro](https://en.wikipedia.org/wiki/In_vitro) (in glass) and [in vivo](https://en.wikipedia.org/wiki/In_vivo) (on animals) is an indispensable part of the whole process. There are many steps from a sequence on your computer to a real protein or virus in a test tube. It turns out that these steps can be done faster or more efficiently using various bioinformatics algorithms. Together with the team, we have developed (and are still developing) a couple of dozen such algorithms. In addition, we developed a service with React and [NextJS](https://nextjs.org/) frontend to make our algorithms lab-friendly. Each algorithm is written in Haskell or Python and runs on several servers using the Kubernetes queue and its API.
-
-**Message bus, version 2.** In 2017, I developed a message bus for distributing a computationally heavy algorithm across servers. At the end of 2019, together with an intern, we developed a new version. It was based on RabbitMQ and was used not only in our department but also for interdepartmental communication. The trickiest part was providing a single entry point that could validate message types and their content for the public API.
-
+We also have developed a couple of dozen algorithms for labs that simplify and speed up the process from computer-based sequences to physical proteins or viruses. Additionally, we created a lab-friendly service with a React and [NextJS](https://nextjs.org/) frontend, incorporating Haskell and Python algorithms that operate across multiple servers through the Kubernetes queue and API.
 
 ### Lead software developer
 
-👉 [BIOCAD](https://biocad.ru/) / *Saint-Petersburg, Russia*
+👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 01.2018 – 01.2019 / *1 year 1 month*
+🗓 01.2018 – 01.2019 / _1 year 1 month_
 
-🔧 Haskell, Neo4j, Mongo
+🔧 Haskell, Python, Neo4j, Mongo
 
-**Scaffold algorithm.** Sometimes we have a 3D structure for a drug candidate. In this case, we do not need to solve the protein folding problem (see below). But we have to deal with another problem -- finding valid details in other 3D structures in order to use them as inspiration for rational [*in silico*](https://en.wikipedia.org/wiki/In_silico) modeling. We solved this problem by using the entire [PDB](https://www.rcsb.org/) database. Also, a poster with this algorithm was presented at [PEGS 2019](https://www.pegsummit.com/19#).
+Developed an algorithm to find valid details in other 3D structures for inspiration in rational [_in silico_](https://en.wikipedia.org/wiki/In_silico) modeling, utilizing the entire [PDB](https://www.rcsb.org/) database. A poster with this algorithm was presented at [PEGS 2019](https://www.pegsummit.com/19#).
 
-**Algorithm for minimization.** One of the main parts of finding the correct 3D structure is the minimization problem -- you have to predict minimum energy conformation in some [force fields](https://en.wikipedia.org/wiki/Force_field_(chemistry)). One of the commonly used force fields is [OPLS](https://en.wikipedia.org/wiki/OPLS). In cooperation with the Matrosov Institute for System Dynamics and Control Theory, we have developed several optimization methods that allow us to find the local extremum faster than standard methods. The article "Algorithms for local minimization of 3D molecules OPLS force field" was also published (see below in the articles).
+Collaborated with the Matrosov Institute for System Dynamics and Control Theory to create optimization methods, enabling faster identification of local extremum in protein structures compared to standard approaches. Published the article "Algorithms for local minimization of 3D molecules OPLS force field" (see below in the articles).
 
-**Project management service.** BIOCAD has a full cycle of drug development -- from R&D to Production. This means there are many different projects going through this process. Together with the team, we developed a service with Mongo database, Haskell backend, and React frontend to manage them. An interesting part of this project was striking a balance between the ease of editing project fields and their consistency after editing.
-
+Led a team in creating a project management service using MongoDB and Haskell on the backend, along with React on the frontend, to streamline projects coordination.
 
 ### Senior software developer
 
-👉 [BIOCAD](https://biocad.ru/) / *Saint-Petersburg, Russia*
+👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 01.2017 – 12.2017 / *1 year*
+🗓 01.2017 – 12.2017 / _1 year_
 
-🔧 Haskell, ZeroMQ, Neo4j
+🔧 Haskell, Python, ZeroMQ, Neo4j
 
-**Protein folding.** If you are developing drugs, the candidate 3D model is very useful to make development more rational and efficient. But very often the 3D model is not known. As such, you have to predict a 3D models for your candidates using open databases (like [PDB](https://www.rcsb.org/)) and a variety of ideas and tricks. Learn more about [protein folding problem](https://en.wikipedia.org/wiki/Protein_folding), [CASP competition](https://predictioncenter.org), CASP14 winner [AlphaFold](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery). With my team, we have created an algorithm for predicting the 3D structure of antibodies that are used in BIOCAD as one of the types of drugs. The quality of our algorithm is comparable to [Rosetta Software](https://www.rosettacommons.org/software) and [Schrödinger Software](https://www.schrodinger.com/products/prime).
+Together with my team, we created an algorithm for the [protein folding problem](https://en.wikipedia.org/wiki/Protein_folding). The quality of the resulting 3D antibody structure prediction algorithm is comparable to [Rosetta Software](https://www.rosettacommons.org/software) and [Schrödinger Software](https://www.schrodinger.com/products/prime).
 
-**Message bus.** Algorithms such as protein folding and many other related to structure use a lot of computational resources. Thus, you need to distribute tasks across computing services. To solve this problem, I created a message bus based on ZeroMQ with bindings for Haskell and Python (these languages are used for our structural algorithms).
-
+Created a message bus for efficient task distribution based on ZeroMQ with bindings for Haskell and Python.
 
 ### Software developer
 
-👉 [BIOCAD](https://biocad.ru/) / *Saint-Petersburg, Russia*
+👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 05.2016 – 12.2016 / *8 months*
+🗓 05.2016 – 12.2016 / _8 months_
 
 🔧 Scala, Julia, MySQL, Docker
 
-**Semantic system.** I wrote backend on Scala for a service for storing and connecting various biological items. This version did not become a production solution but was a prototype for the next versions.
+Wrote in Scala:
 
-**Authorization.** In Scala I wrote a backend for an authorization system that stores information about users, salted and hashed passwords, groups, and so on. This authorization system was used by all services in the department and was changed to authorization [Keycloak](https://www.keycloak.org/) and [Azure](azure.microsoft.com) only in 2019.
+- backend for a service for storing and connecting various biological items
+- backend for a proprietary authorization and authotication system that was only changed to [Keycloak](https://www.keycloak.org/) and [Azure](azure.microsoft.com) in 2019
+- [Sun Grid Engine](http://star.mit.edu/cluster/docs/0.93.3/guides/sge.html)-based solution for high-load server
 
-**Asynchronous task execution.** For one of our services with a lot of computations, I made a module that allows to balance workload on a server with a lot of CPUs. This solution was based on [Sun Grid Engine](http://star.mit.edu/cluster/docs/0.93.3/guides/sge.html).
+Wrote in Julia:
 
-**Basecaller algorithm.** Using Julia language, I solved the [basecalling](https://en.wikipedia.org/wiki/Base_calling) problem. My solution was of the same quality as other algorithms, and slightly worse than a state-of-the-art algorithm.
-
+- [basecalling](https://en.wikipedia.org/wiki/Base_calling) algorithm for converting raw data into DNA sequence
 
 ### Junior software developer
 
-👉 [Laser Systems](http://www.lsystems.ru/en/) / *Saint-Petersburg, Russia*
+👉 [Laser Systems](http://www.lsystems.ru/en/) / _Saint-Petersburg, Russia_
 
-🗓 07.2015 – 04.2016 / *10 months*
+🗓 07.2015 – 04.2016 / _10 months_
 
 🔧 Qt
 
-**Position algorithm.** I created an algorithm to position the laser tool in several modes: scan, the shortest path from one point to another, and so on. This problem contains a lot of fun problems in solid geometry.
-
-**Bus.** I wrote code for a module that connects about 20 different components of the product (motors, sensors, power, and so on). Also, this module makes a health check for all of these components with their own protocols based on protobuf.
-
+Developed a position algorithms for laser tools and created a module for connecting various components of the product via protobuf protocol.
 
 ### Mathematician
 
-👉 [Kotlin-Novator](https://www.kotlin-novator.ru/) / *Saint-Petersburg, Russia*
+👉 [Kotlin-Novator](https://www.kotlin-novator.ru/) / _Saint-Petersburg, Russia_
 
-🗓 01.2015 – 06.2015 / *6 months*
+🗓 01.2015 – 06.2015 / _6 months_
 
 🔧 Python, LaTeX
 
-**Algorithms.** I solved aircraft navigation problems and created different algorithms for them. For example, how to find the optimum trajectory to land down aircraft with a lot of restrictions such that total mass, current fuel level, height, wind direction, current aircraft velocity, and so on. Another example is the navigation problem for several aircraft: find the optimum trajectory of the aircraft relative to others (taking off, landing, cruise formation).
-
+Worked on solving aircraft navigation problems and developed algorithms for trajectory optimization.
 
 ### Junior web-developer
 
-👉 Mr.Brooks Private Marketing / *Saint-Petersburg, Russia*
+👉 Mr.Brooks Private Marketing / _Saint-Petersburg, Russia_
 
-🗓 12.2013 – 12.2014 / *1 year*
+🗓 12.2013 – 12.2014 / _1 year_
 
 🔧 WordPress, JavaScript, CSS, Adobe Illustrator
 
-**Web-sites.** I made several websites, based on [WordPress](wordpress.com) CMS and customized them with JavaScript. Customers were the AAG Group of companies, Moskovsky Univermag, Mr. Brooks.
-
-**Font.** In collaboration with designers, we created a new font. My task was to convert vector images to font format and make corrections for inter-letter spaces for all combinations of two letters.
-
+Created websites using WordPress CMS and customized them with JavaScript. Additionally, I collaborated with designers to create a new font.
 
 ## Education
 
@@ -150,26 +142,26 @@ Lieutenant
 
 ## Diplomas and certificates
 
-* 2009, ICYS, Silver Medal in Mathematics, Pszczyna, Poland
-* 2010, ICYS, Gold Medal in Mathematics, Bali, Indonesia
-* 2010, Intel ISEF, Third place in Mathematics, San Jose, USA
-* 2021, [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) ([certificate](https://coursera.org/verify/specialization/P3EHQX4ZZZJ9)):
-  * [Neural Networks and Deep Learning](https://coursera.org/verify/Q2DFTK2EXP8X)
-  * [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://coursera.org/verify/WQUMDL3FSQUQ)
-  * [Structuring Machine Learning Projects](http://coursera.org/verify/Q3GAYF59P7QJ)
-  * [Convolutional Neural Networks](https://coursera.org/verify/9YXGPAWHTGHF)
-  * [Sequence Models](https://coursera.org/verify/QHEHGZTULZWC)
-* 2022, [Modern Robotics: Mechanics, Planning, and Control Specialization](https://www.coursera.org/specializations/modernrobotics)
-  * [Foundations of Robot Motion](https://www.coursera.org/account/accomplishments/verify/KC6E93SCLJEN) 
+- 2009, ICYS, Silver Medal in Mathematics, Pszczyna, Poland
+- 2010, ICYS, Gold Medal in Mathematics, Bali, Indonesia
+- 2010, Intel ISEF, Third place in Mathematics, San Jose, USA
+- 2021, [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) ([certificate](https://coursera.org/verify/specialization/P3EHQX4ZZZJ9)):
+  - [Neural Networks and Deep Learning](https://coursera.org/verify/Q2DFTK2EXP8X)
+  - [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://coursera.org/verify/WQUMDL3FSQUQ)
+  - [Structuring Machine Learning Projects](http://coursera.org/verify/Q3GAYF59P7QJ)
+  - [Convolutional Neural Networks](https://coursera.org/verify/9YXGPAWHTGHF)
+  - [Sequence Models](https://coursera.org/verify/QHEHGZTULZWC)
+- 2022, [Modern Robotics: Mechanics, Planning, and Control Specialization](https://www.coursera.org/specializations/modernrobotics)
+  - [Foundations of Robot Motion](https://www.coursera.org/account/accomplishments/verify/KC6E93SCLJEN)
 
-## Presentations 
+## Presentations
 
 #### 02.2019 [Think like a graph / Думай как граф](https://youtu.be/BPB5omKK4Tc) (in Russian)
 
-Presentation from *FProg SPb* meeting about Neo4j database and Haskell libraries to work with it.
+Presentation from _FProg SPb_ meeting about Neo4j database and Haskell libraries to work with it.
 
 ## Articles
 
-* (2017) Nazarov A.I., Neterebskii B.O. *The Multiplicity of Positive Solutions to A Quasilinear Equation Generated By The Il′in–Caffarelli–Cohn–Nirenberg Inequality.* J Math Sci 224, 448–455. https://doi.org/10.1007/s10958-017-3427-z
-* (2018) Yakovlev Pavel, Anikin Anton, Bolshakova Olga, Gasnikov Alexander, Gornov Alexander, Ermak Timofei, Makarenko Dmitrii, Morozov Vladimir, Neterebskii Bogdan. *Algorithms for local minimization of 3D molecules OPLS force field.* https://arxiv.org/abs/1810.03358
-* (2022) Irina Isakova-Sivak, Ekaterina Stepanova, Victoria Matyushenko, Sergei Niskanen, Daria Mezhenskaya, Ekaterina Bazhenova, Elena Krutikova, Tatiana Kotomina, Polina Prokopenko, Bogdan Neterebskii, Aleksandr Doronin, Elena Vinogradova, Kirill Yakovlev, Konstantin Sivak, and Larisa Rudenko. *Development of a T Cell-Based COVID-19 Vaccine Using a Live Attenuated Influenza Vaccine Viral Vector.* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9318028/
+- (2017) Nazarov A.I., Neterebskii B.O. _The Multiplicity of Positive Solutions to A Quasilinear Equation Generated By The Il′in–Caffarelli–Cohn–Nirenberg Inequality._ J Math Sci 224, 448–455. https://doi.org/10.1007/s10958-017-3427-z
+- (2018) Yakovlev Pavel, Anikin Anton, Bolshakova Olga, Gasnikov Alexander, Gornov Alexander, Ermak Timofei, Makarenko Dmitrii, Morozov Vladimir, Neterebskii Bogdan. _Algorithms for local minimization of 3D molecules OPLS force field._ https://arxiv.org/abs/1810.03358
+- (2022) Irina Isakova-Sivak, Ekaterina Stepanova, Victoria Matyushenko, Sergei Niskanen, Daria Mezhenskaya, Ekaterina Bazhenova, Elena Krutikova, Tatiana Kotomina, Polina Prokopenko, Bogdan Neterebskii, Aleksandr Doronin, Elena Vinogradova, Kirill Yakovlev, Konstantin Sivak, and Larisa Rudenko. _Development of a T Cell-Based COVID-19 Vaccine Using a Live Attenuated Influenza Vaccine Viral Vector._ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9318028/
