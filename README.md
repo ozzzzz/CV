@@ -1,16 +1,15 @@
-# Curriculum vitae
+# Bogdan Neterebskii
 
-Hi, my name is Bogdan.
+- Senior Software Engineer with 10 years of experience, primarily in backend development, but also possessing expertise in frontend and ML technologies.
+- I also bring 3 years of experience leading a team of approximately 25 developers, emphasising transparency and efficiency in communication. I am comfortable in both leadership and developer roles, and committed to remaining actively involved in development projects.
+- Highly motivated by constant learning, my focus is on solving business problems.
+- I am passionate about research tasks, robotics, 3D printing and AI-related topics.
 
-I'm a software developer with 8+ years of backend experience, mostly in Haskell and Python, and 3+ years of team management experience. I also have experience with frontend (mostly React), distributed systems and machine learning. However, for me, technology is just a way to solve problems that can make the world a little better.
+## Contacts
 
-Areas of my main interests:
-
-- robotics in various fields,
-- renewable energy,
-- waste recycling,
-- agrotechnics,
-- efficient transport (including electic vehicles).
+- email: [bog2dan1@gmail.com](mailto:bog2dan1@gmail.com)
+- linkedin: [bogdan-neterebskii](https://www.linkedin.com/in/bogdan-neterebskii/)
+- github: [ozzzzz](https://github.com/ozzzzz)
 
 ## Experience
 
