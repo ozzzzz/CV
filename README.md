@@ -13,21 +13,33 @@
 
 ## Experience
 
+### Senion software developer
+
+👉 [FunkFlow](https://www.funkflow.com/) / _Belgrade, Serbia_
+
+🗓 05.2024 – current time
+
+I am developing a system for generating and analyzing the structure of buildings.
+
+🔧 Python, React, Rhino + Grasshopper
+
 ### Software developer
 
 👉 [Nortal](https://nortal.com/) / _Belgrade, Serbia_
 
-🗓 08.2022 – current time
+🗓 08.2022 – 05.2024
 
-🔧 Python, Kubernetes, Kafka
+🔧 Python, Spark, React, Kubernetes, Kafka
 
-Working on a digitalization for the [NEOM](https://www.neom.com/en-us) city.
+I contributed to the development of the digital core for NEOM city. I collaborated with other developers to create a microservice system, ensuring that the architecture diagram was always current and facilitating knowledge sharing within the team. This collaboration was crucial in maintaining a cohesive and efficient development process.
+
+Furthermore, I developed backend systems and assisted in mobile development for various applications designed for NEOM Airport. These applications were developed in a very short period of time and successfully released.
 
 ### Senior software developer
 
 👉 [The Anylogic Company](https://www.anylogic.com/) / _Saint-Petersburg, Russia_
 
-🗓 09.2021 – 08.2021 / _11 months_
+🗓 09.2021 – 08.2022 / _11 months_
 
 🔧 Java, Python, Docker, Gitlab, NSIS
 
