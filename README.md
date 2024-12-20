@@ -1,6 +1,6 @@
 # Bogdan Neterebskii
 
-- Senior Software Engineer with 10 years of experience, primarily in backend development, but also possessing expertise in frontend and ML technologies.
+- Senior Software Engineer with 11 years of experience, primarily in backend development, but also possessing expertise in frontend and ML technologies.
 - I also bring 3 years of experience leading a team of approximately 25 developers, emphasising transparency and efficiency in communication. I am comfortable in both leadership and developer roles, and committed to remaining actively involved in development projects.
 - Highly motivated by constant learning, my focus is on solving business problems.
 - I am passionate about research tasks, robotics, 3D printing and AI-related topics.
@@ -17,19 +17,19 @@
 
 👉 [FunkFlow](https://www.funkflow.com/) / _Belgrade, Serbia_
 
-🗓 05.2024 – current time
+⏱️ 05.2024 – current time
+
+🔧 Python, React, Rhino + Grasshopper, RFEM6
 
 I worked on developing services and algorithms to speed up the building construction process, starting from the project brief, through exploring structural options, and finishing with prefabrication in the factory. This involved studying the physics of load-bearing structures and using FEM analysis tools like RFEM to ensure safety and optimize structural performance.
 
 I also focused on making workflows more efficient and integrating designs with prefabrication needs to ensure smooth transitions between design and factory production.
 
-🔧 Python, React, Rhino + Grasshopper, RFEM6
-
 ### Software developer
 
 👉 [Nortal](https://nortal.com/) / _Belgrade, Serbia_
 
-🗓 08.2022 – 05.2024
+⏱️ 08.2022 – 05.2024
 
 🔧 Python, Spark, React, Kubernetes, Kafka, Keycloak
 
@@ -41,7 +41,7 @@ Furthermore, I developed backend systems and assisted in mobile development for 
 
 👉 [The Anylogic Company](https://www.anylogic.com/) / _Saint-Petersburg, Russia_
 
-🗓 09.2021 – 08.2022 / _11 months_
+⏱️ 09.2021 – 08.2022 / _11 months_
 
 🔧 Java, Python, Docker, Gitlab, NSIS
 
@@ -53,7 +53,7 @@ Fixed a bottleneck in the development and release pipeline by setting new a new 
 
 👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 02.2019 – 08.2021 / _2 years 7 months_
+⏱️ 02.2019 – 08.2021 / _2 years 7 months_
 
 🔧 Haskell, Python, React, RabbitMQ, Gitlab, Kubernetes
 
@@ -65,7 +65,7 @@ We also have developed a couple of dozen algorithms for labs that simplify and s
 
 👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 01.2018 – 01.2019 / _1 year 1 month_
+⏱️ 01.2018 – 01.2019 / _1 year 1 month_
 
 🔧 Haskell, Python, Neo4j, Mongo
 
@@ -79,7 +79,7 @@ Led a team in creating a project management service using MongoDB and Haskell on
 
 👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 01.2017 – 12.2017 / _1 year_
+⏱️ 01.2017 – 12.2017 / _1 year_
 
 🔧 Haskell, Python, ZeroMQ, Neo4j
 
@@ -91,7 +91,7 @@ Created a message bus for efficient task distribution based on ZeroMQ with bindi
 
 👉 [BIOCAD](https://biocad.ru/) / _Saint-Petersburg, Russia_
 
-🗓 05.2016 – 12.2016 / _8 months_
+⏱️ 05.2016 – 12.2016 / _8 months_
 
 🔧 Scala, Julia, MySQL, Docker
 
@@ -109,7 +109,7 @@ Wrote in Julia:
 
 👉 [Laser Systems](http://www.lsystems.ru/en/) / _Saint-Petersburg, Russia_
 
-🗓 07.2015 – 04.2016 / _10 months_
+⏱️ 07.2015 – 04.2016 / _10 months_
 
 🔧 Qt
 
@@ -119,7 +119,7 @@ Developed a position algorithms for laser tools and created a module for connect
 
 👉 [Kotlin-Novator](https://www.kotlin-novator.ru/) / _Saint-Petersburg, Russia_
 
-🗓 01.2015 – 06.2015 / _6 months_
+⏱️ 01.2015 – 06.2015 / _6 months_
 
 🔧 Python, LaTeX
 
@@ -129,7 +129,7 @@ Worked on solving aircraft navigation problems and developed algorithms for traj
 
 👉 Mr.Brooks Private Marketing / _Saint-Petersburg, Russia_
 
-🗓 12.2013 – 12.2014 / _1 year_
+⏱️ 12.2013 – 12.2014 / _1 year_
 
 🔧 WordPress, JavaScript, CSS, Adobe Illustrator
 
@@ -139,7 +139,7 @@ Created websites using WordPress CMS and customized them with JavaScript. Additi
 
 ### Saint Petersburg State University, Russia
 
-🗓 09.2010 – 06.2015
+⏱️ 09.2010 – 06.2015
 
 Mathematics and Mechanics Faculty
 
@@ -147,7 +147,7 @@ Diploma of Specialist in Mathematical Physics
 
 ### Saint Petersburg State University, Russia
 
-🗓 09.2011 – 08.2014
+⏱️ 09.2011 – 08.2014
 
 Faculty of Military Studies
 
