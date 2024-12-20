@@ -19,9 +19,11 @@
 
 🗓 05.2024 – current time
 
-I am developing a system for generating and analyzing the structure of buildings.
+I worked on developing services and algorithms to speed up the building construction process, starting from the project brief, through exploring structural options, and finishing with prefabrication in the factory. This involved studying the physics of load-bearing structures and using FEM analysis tools like RFEM to ensure safety and optimize structural performance.
 
-🔧 Python, React, Rhino + Grasshopper
+I also focused on making workflows more efficient and integrating designs with prefabrication needs to ensure smooth transitions between design and factory production.
+
+🔧 Python, React, Rhino + Grasshopper, RFEM6
 
 ### Software developer
 
@@ -29,7 +31,7 @@ I am developing a system for generating and analyzing the structure of buildings
 
 🗓 08.2022 – 05.2024
 
-🔧 Python, Spark, React, Kubernetes, Kafka
+🔧 Python, Spark, React, Kubernetes, Kafka, Keycloak
 
 I contributed to the development of the digital core for NEOM city. I collaborated with other developers to create a microservice system, ensuring that the architecture diagram was always current and facilitating knowledge sharing within the team. This collaboration was crucial in maintaining a cohesive and efficient development process.
 
