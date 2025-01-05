@@ -128,6 +128,7 @@ def _(HBarItem, draw_hbars, np, pd, plt):
                 HBarItem(name="Gitlab + Actions", periods = [(np.datetime64("2021-08"), np.datetime64("2022-08")), (np.datetime64("2024-05"), np.datetime64("2025"))], color="#f46d43"),
                 HBarItem(name="Kubernetes", periods = [(np.datetime64("2022-06"), np.datetime64("2024-05"))], color="#5e4fa2"),
                 HBarItem(name="Docker", periods = [(np.datetime64("2016"), np.datetime64("2025"))], color="#3288bd"),
+                HBarItem(name="Prometheus + Grafana", periods = [(np.datetime64("2018"), np.datetime64("2025"))], color="#66c2a5"),
             ],
             "other": [
                 HBarItem(name="Neo4j", periods = [(np.datetime64("2017"), np.datetime64("2020"))], color="#e6f598"),
@@ -146,8 +147,32 @@ def _(HBarItem, draw_hbars, np, pd, plt):
             fig, (ax_back, ax_front, ax_devops, ax_other) = plt.subplots(nrows=4, figsize=(18, 24))
 
             x_min = np.datetime64('2013-01-01')
+            
             draw_hbars(axis=ax_back, title="BACKEND TECH STACK", items=data["backend"], x_min=x_min)
+            ax_back.annotate(
+                "INTERESTING EXPERIENCE: TYPE THEORY & MONADS",
+                xy=(np.datetime64("2018"), 2),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.56, 0.79),
+            )
+            ax_back.annotate(
+                "SIDE PROJECT, NOT\n SO INTERESTING EXPERIENCE",
+                xy=(np.datetime64("2023"), 4),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.78, 0.82),
+            )
+            
+            
             draw_hbars(axis=ax_front, title="FRONTEND TECH STACK", items=data["frontend"], x_min=x_min)
+            ax_front.annotate(
+                "DIDN'T HAVE A FREE FRONTEND,\n SO I STARTED TO BUILD\n A UI FOR OUR SERVICE",
+                xy=(np.datetime64("2019"), 2),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.3, 0.62),
+            )
             draw_hbars(axis=ax_devops, title="DEVOPS TECH STACK", items=data["devops"], x_min=x_min)
             draw_hbars(axis=ax_other, title="DATABASES, BROKERS AND OTHER", items=data["other"], x_min=x_min)
             
@@ -163,7 +188,7 @@ def _(HBarItem, draw_hbars, np, pd, plt):
         return [
             HBarItem(
                 name="Master degree in Math",
-                periods=[(np.datetime64("2010-09"), np.datetime64("2015-06"))],
+                periods=[(np.datetime64("2010-09"), np.datetime64("2015-06")), (np.datetime64("2016-11"), np.datetime64("2017"))],
                 color="#5e4fa2",
             ),
             HBarItem(
@@ -218,6 +243,42 @@ def _(HBarItem, draw_hbars, np, pd, plt):
                 title="AREAS AND SCIENCE",
                 items=data,
                 x_min=x_min,
+            )
+
+            ax.annotate(
+                "MATH ARTICLE BASED ON\nMY MASTER THESIS",
+                xy=(np.datetime64("2017"), 0),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.57, 0.15),
+            )
+            ax.annotate(
+                "ARTICLE ABOUT 3D MOLECULES\nAND FORCE FIELDS",
+                xy=(np.datetime64("2018"), 3),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.4, 0.7),
+            )
+            ax.annotate(
+                "COVID-19 STARTED, JOINED\nA TEAM TO DEVELOP A VACCINE",
+                xy=(np.datetime64("2020"), 3),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.6, 0.3),
+            )
+            ax.annotate(
+                "PATENT WO-2023287324-A1\nABOUT VACCINE",
+                xy=(np.datetime64("2021"), 3),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.65, 0.7),
+            )
+            ax.annotate(
+                "ARTICLE ABOUT VACCINE :)",
+                xy=(np.datetime64("2022"), 3),
+                textcoords="subfigure fraction",
+                arrowprops=dict(arrowstyle="->"),
+                xytext=(0.81, 0.5),
             )
 
             plt.show()
