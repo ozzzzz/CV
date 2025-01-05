@@ -103,42 +103,42 @@ def _(mdates, np, pydantic):
                 typed_delta = np.datetime64(str(end)) - typed_start
                 typed_periods.append((typed_start, typed_delta))
             axis.broken_barh(typed_periods, (index - bar_height / 2, bar_height), facecolors =(item.color))
-
-    def define_techstack() -> dict[str, list[HBarItem]]:
-        return {
-            "backend": [
-                HBarItem(name="QT", periods = [(np.datetime64("2015"), np.datetime64("2016"))], color="#16C47F"),
-                HBarItem(name="Scala", periods = [(np.datetime64("2016"), np.datetime64("2017"))], color="#F93827"),
-                HBarItem(name="Haskell", periods = [(np.datetime64("2017"), np.datetime64("2021-08"))], color="#441752"),
-                HBarItem(name="Java", periods = [(np.datetime64("2021-08"), np.datetime64("2022-06"))], color="#2E5077"),
-                HBarItem(name="PHP", periods = [(np.datetime64("2022"), np.datetime64("2023-06"))], color="#A294F9"),
-                HBarItem(name="Python", periods = [(np.datetime64("2014"), np.datetime64("2015")), (np.datetime64("2018"), np.datetime64("2025"))], color="#FFD65A"),
-            ],
-            "frontend": [
-                HBarItem(name="JavaScript", periods = [(np.datetime64("2013"), np.datetime64("2015")), (np.datetime64("2022"), np.datetime64("2023"))], color="#FFD65A"),
-                HBarItem(name="NextJS", periods = [(np.datetime64("2019"), np.datetime64("2021-08"))], color="#999999"),
-                HBarItem(name="React", periods = [(np.datetime64("2019"), np.datetime64("2025"))], color="#A5BFCC"),
-            ],
-            "devops": [
-                HBarItem(name="Github", periods = [(np.datetime64("2016"), np.datetime64("2025"))], color="#333"),
-                HBarItem(name="Gitlab + Actions", periods = [(np.datetime64("2021-08"), np.datetime64("2022-08")), (np.datetime64("2024-05"), np.datetime64("2025"))], color="#E16A54"),
-                HBarItem(name="Kubernetes", periods = [(np.datetime64("2022-06"), np.datetime64("2024-05"))], color="#001A6E"),
-                HBarItem(name="Docker", periods = [(np.datetime64("2016"), np.datetime64("2025"))], color="#074799"),
-            ],
-            "other": [
-                HBarItem(name="Neo4j", periods = [(np.datetime64("2017"), np.datetime64("2020"))], color="#074799"),
-                HBarItem(name="MongoDB", periods = [(np.datetime64("2016"), np.datetime64("2021-08"))], color="#5DB996"),
-                HBarItem(name="PostgreSQL", periods = [(np.datetime64("2021-08"), np.datetime64("2024-05"))], color="#074799"),
-                HBarItem(name="Keycloak", periods = [(np.datetime64("2020"), np.datetime64("2021-08")), (np.datetime64("2022-08"), np.datetime64("2024-05"))], color="#777777"),
-                HBarItem(name="RabbitMQ", periods = [(np.datetime64("2020"), np.datetime64("2021-08"))], color="#074799"),
-                HBarItem(name="Kafka", periods = [(np.datetime64("2022-08"), np.datetime64("2024-05"))], color="#333"),
-            ]
-        }
-    return HBarItem, define_techstack, draw_hbars
+    return HBarItem, draw_hbars
 
 
 @app.cell
-def _(define_techstack, draw_hbars, np, pd, plt):
+def _(HBarItem, draw_hbars, np, pd, plt):
+    def define_techstack() -> dict[str, list[HBarItem]]:
+        return {
+            "backend": [
+                HBarItem(name="QT", periods = [(np.datetime64("2015"), np.datetime64("2016"))], color="#abdda4"),
+                HBarItem(name="Scala", periods = [(np.datetime64("2016"), np.datetime64("2017"))], color="#d53e4f"),
+                HBarItem(name="Haskell", periods = [(np.datetime64("2017"), np.datetime64("2021-08"))], color="#5e4fa2"),
+                HBarItem(name="Java", periods = [(np.datetime64("2021-08"), np.datetime64("2022-06"))], color="#3288bd"),
+                HBarItem(name="PHP", periods = [(np.datetime64("2022"), np.datetime64("2023-06"))], color="#9e0142"),
+                HBarItem(name="Python", periods = [(np.datetime64("2014"), np.datetime64("2015")), (np.datetime64("2018"), np.datetime64("2025"))], color="#fee08b"),
+            ],
+            "frontend": [
+                HBarItem(name="JavaScript", periods = [(np.datetime64("2013"), np.datetime64("2015")), (np.datetime64("2022"), np.datetime64("2023"))], color="#e6f598"),
+                HBarItem(name="NextJS", periods = [(np.datetime64("2019"), np.datetime64("2021-08"))], color="#abdda4"),
+                HBarItem(name="React", periods = [(np.datetime64("2019"), np.datetime64("2025"))], color="#3288bd"),
+            ],
+            "devops": [
+                HBarItem(name="Github", periods = [(np.datetime64("2016"), np.datetime64("2025"))], color="#555"),
+                HBarItem(name="Gitlab + Actions", periods = [(np.datetime64("2021-08"), np.datetime64("2022-08")), (np.datetime64("2024-05"), np.datetime64("2025"))], color="#f46d43"),
+                HBarItem(name="Kubernetes", periods = [(np.datetime64("2022-06"), np.datetime64("2024-05"))], color="#5e4fa2"),
+                HBarItem(name="Docker", periods = [(np.datetime64("2016"), np.datetime64("2025"))], color="#3288bd"),
+            ],
+            "other": [
+                HBarItem(name="Neo4j", periods = [(np.datetime64("2017"), np.datetime64("2020"))], color="#e6f598"),
+                HBarItem(name="MongoDB", periods = [(np.datetime64("2016"), np.datetime64("2021-08"))], color="#abdda4"),
+                HBarItem(name="PostgreSQL", periods = [(np.datetime64("2021-08"), np.datetime64("2024-05"))], color="#5e4fa2"),
+                HBarItem(name="Keycloak", periods = [(np.datetime64("2020"), np.datetime64("2021-08")), (np.datetime64("2022-08"), np.datetime64("2024-05"))], color="#66c2a5"),
+                HBarItem(name="RabbitMQ", periods = [(np.datetime64("2020"), np.datetime64("2021-08"))], color="#3288bd"),
+                HBarItem(name="Kafka", periods = [(np.datetime64("2022-08"), np.datetime64("2024-05"))], color="#555"),
+            ]
+        }
+
     def draw_tech_stack() -> pd.DataFrame:
         with plt.xkcd():
             data = define_techstack()
@@ -154,7 +154,77 @@ def _(define_techstack, draw_hbars, np, pd, plt):
             plt.show()
             
     draw_tech_stack()
-    return (draw_tech_stack,)
+    return define_techstack, draw_tech_stack
+
+
+@app.cell
+def _(HBarItem, draw_hbars, np, pd, plt):
+    def define_areas() -> list[HBarItem]:
+        return [
+            HBarItem(
+                name="Master degree in Math",
+                periods=[(np.datetime64("2010-09"), np.datetime64("2015-06"))],
+                color="#5e4fa2",
+            ),
+            HBarItem(
+                name="Avionics",
+                periods=[(np.datetime64("2015-01"), np.datetime64("2015-06"))],
+                color="#abdda4",
+            ),
+            HBarItem(
+                name="General Software Development",
+                periods=[
+                    (np.datetime64("2013-12"), np.datetime64("2015-01")),
+                    (np.datetime64("2015-06"), np.datetime64("2016-05")),
+                    (np.datetime64("2022-08"), np.datetime64("2024-05")),
+                ],
+                color="#3288bd",
+            ),
+            HBarItem(
+                name="Molecular biology",
+                periods=[
+                    (np.datetime64("2016-05"), np.datetime64("2021-09")),
+                ],
+                color="#66c2a5",
+            ),
+            HBarItem(
+                name="Simulaiton and optimization",
+                periods=[
+                    (np.datetime64("2021-09"), np.datetime64("2022-08")),
+                ],
+                color="#e6f598",
+            ),
+            HBarItem(
+                name="Construction",
+                periods=[
+                    (np.datetime64("2024-05"), np.datetime64("2025")),
+                ],
+                color="#fee08b",
+            ),
+        ]
+
+
+    def draw_areas() -> pd.DataFrame:
+        with plt.xkcd():
+            data = define_areas()
+
+            fig, (ax) = plt.subplots(
+                nrows=1, figsize=(18, 6)
+            )
+
+            x_min = np.datetime64("2010-09")
+            draw_hbars(
+                axis=ax,
+                title="AREAS AND SCIENCE",
+                items=data,
+                x_min=x_min,
+            )
+
+            plt.show()
+
+
+    draw_areas()
+    return define_areas, draw_areas
 
 
 @app.cell
