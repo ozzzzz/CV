@@ -11,6 +11,19 @@
 - linkedin: [bogdan-neterebskii](https://www.linkedin.com/in/bogdan-neterebskii/)
 - github: [ozzzzz](https://github.com/ozzzzz)
 
+## Principles
+
+These principles are my global approach and stay with me across roles, teams, and companies.
+
+- **Transparency first.** [C4 models](https://c4model.com/) and [Mermaid](https://mermaid.js.org/) diagrams are must-haves for a clear system overview, with Confluence pages, solid READMEs, and how-to blocks maintaining shared context.
+- **Clear proactivity.** Surface context early, flag risks, and keep everyone aligned on what is really happening.
+- **Default tech stack mindset.** Start with proven tools and borrowed best practices, yet stay open to new solutions when they bring measurable value.
+- **Focus on the result.** Keep outcomes visible, measure impact, and change course when the value is not there.
+- **Respect time.** Prefer deeper thinking and written pre-mortems over extra meetings; flag risks before large discussions.
+- **Responsible AI usage.** Let AI handle routine work, but review every line, understand its limits, and step in manually whenever needed.
+
+> “My goal is to make the team faster and the work easier when I am around.”
+
 ## Experience
 
 ### Senior software developer
