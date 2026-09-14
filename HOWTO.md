@@ -1,11 +1,13 @@
 # HOWTO
 
 ## Generate pdf
-To generate pdf, install [md2pdf](https://github.com/jmaupetit/md2pdf) and generate pdf from markdown file:
+To generate pdf, install [md2pdf](https://github.com/jmaupetit/md2pdf) (`uv tool install "md2pdf[cli]"`) and generate pdf from markdown file:
 
 ```bash
-md2pdf --css style.css README.md Bogdan_Neterebskii.pdf
+DYLD_LIBRARY_PATH=/opt/homebrew/lib md2pdf -i README.md -o Bogdan_Neterebskii.pdf -c style.css
 ```
+
+`DYLD_LIBRARY_PATH` needed on macOS so WeasyPrint finds Homebrew's pango/gobject libs (`brew install pango gdk-pixbuf`).
 
 ## Generate graphs
 

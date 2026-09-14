@@ -10,19 +10,31 @@
 - email: [bog2dan1@gmail.com](mailto:bog2dan1@gmail.com)
 - linkedin: [bogdan-neterebskii](https://www.linkedin.com/in/bogdan-neterebskii/)
 - github: [ozzzzz](https://github.com/ozzzzz)
+- site: [bogdanhas.fun](https://bogdanhas.fun/)
 
 ## Principles
 
 These principles are my global approach and stay with me across roles, teams, and companies.
 
 - **Do something valuable.** Either make people’s lives easier and healthier, or reduce environmental impact. No gambling, high-frequency trading or anything else that feels to me wrong.
-- **Transparency first.** [C4 models](https://c4model.com/) and [Mermaid](https://mermaid.js.org/) diagrams are must-haves for a clear system overview, with Confluence pages, solid READMEs, and how-to blocks maintaining shared context. 
+- **Transparency first.** [C4 models](https://c4model.com/) and [Mermaid](https://mermaid.js.org/) diagrams are must-haves for a clear system overview, with Confluence pages, solid READMEs, and how-to blocks maintaining shared context.
 - **Focus on the result.** Keep outcomes visible, measure impact, and change course when the value is not there.
 - **Default tech stack mindset.** Start with proven tools and borrowed best practices, yet stay open to new solutions when they bring measurable value.
 - **Respect time.** Prefer deeper thinking and written pre-mortems over extra meetings; flag risks before large discussions.
 - **Responsible AI usage.** Let AI handle routine work, but review every line, understand its limits, and step in manually whenever needed.
 
 > “My goal is to make the team more efficient and the work smoother when I’m around than when I’m not.”
+
+## Tech stack
+
+- **Backend:** Python, Haskell, Java, Scala, Julia
+- **Frontend:** React, Next.js, JavaScript, TypeScript
+- **DevOps:** Docker, Kubernetes, GitLab CI/CD
+- **Databases:** PostgreSQL, MongoDB, Neo4j, MySQL
+- **Brokers:** RabbitMQ, Kafka, ZeroMQ
+- **Tools & Platforms:** RFEM6, Grasshopper, Rhino, NSIS, OnShape
+- **Security:** Keycloak, GDPR Compliance
+- **AI-assisted development:** Claude Code & Codex (primary coding agents for implementation, review, and planning), worktrunk (parallel git worktrees for running multiple agents at once), justfile (task runner standardizing the commands agents invoke)
 
 ## Experience
 
@@ -158,14 +170,6 @@ Mathematics and Mechanics Faculty
 
 Diploma of Specialist in Mathematical Physics
 
-### Saint Petersburg State University, Russia
-
-⏱️ 09.2011 – 08.2014
-
-Faculty of Military Studies
-
-Lieutenant
-
 ## Diplomas and certificates
 
 - 2009, ICYS, Silver Medal in Mathematics, Pszczyna, Poland
@@ -194,4 +198,5 @@ Presentation from _FProg SPb_ meeting about Neo4j database and Haskell libraries
 - (2024) Ekaterina Stepanova, Irina Isakova-Sivak, Daria Mezhenskaya, Sergei Niskanen, Victoria Matyushenko, Ekaterina Bazhenova, Alexandra Rak, Pei Fong Wong, Polina Prokopenko, Tatiana Kotomina, Elena Krutikova, Sergei Legotskiy, Bogdan Neterebskii, Tatiana Ostroukhova, Konstantin Sivak, Yana Orshanskaya, Kirill Yakovlev, Larisa Rudenko. **Expression of the SARS-CoV-2 receptor-binding domain by live attenuated influenza vaccine virus as a strategy for designing a bivalent vaccine against COVID-19 and influenza.** https://pmc.ncbi.nlm.nih.gov/articles/PMC11003101/
 
 ## Patents
+
 - Influenza virus-based isolated recombinant virus ([WO2023287324A1](https://patents.google.com/patent/WO2023287324A1))
